@@ -13,3 +13,5 @@ libraryDependencies ++= Seq(
 )
 
 scalacOptions := Seq("-unchecked", "-deprecation")
+
+initialCommands in console := "import shapeless._; import play.Chapter6._"
